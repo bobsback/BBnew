@@ -148,6 +148,17 @@ class Comment extends Model
     }
 
     /**
+     * Author email mutator.
+     *
+     * @param string $value
+     * @return void
+     */
+    public function setAuthorEmailAttribute($value)
+    {
+        $this->attributes['author_email'] = ($value !== "") ? $value : null;
+    }
+
+    /**
      * Author avatar accessor.
      *
      * @return string
