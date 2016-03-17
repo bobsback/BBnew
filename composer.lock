@@ -4,7 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4e2f0c690e137df417372ad007250f72",
+    "hash": "ef992b802103e93305ddd0a28ed32ad9",
+    "content-hash": "9bf2b18732e33d3b11acbd1aec17db03",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -950,16 +951,16 @@
         },
         {
             "name": "s9e/text-formatter",
-            "version": "0.4.11",
+            "version": "0.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/s9e/TextFormatter.git",
-                "reference": "e6dc4615081b1668742076aa05d11aa0f7b00103"
+                "reference": "848b1ac6f2d198e78a8124df67f02ad091cac2e8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/s9e/TextFormatter/zipball/e6dc4615081b1668742076aa05d11aa0f7b00103",
-                "reference": "e6dc4615081b1668742076aa05d11aa0f7b00103",
+                "url": "https://api.github.com/repos/s9e/TextFormatter/zipball/848b1ac6f2d198e78a8124df67f02ad091cac2e8",
+                "reference": "848b1ac6f2d198e78a8124df67f02ad091cac2e8",
                 "shasum": ""
             },
             "require": {
@@ -969,11 +970,10 @@
                 "php": ">=5.3.3"
             },
             "suggest": {
-                "ext-curl": "Improves the performance of the MediaEmbed plugin and some JavaScript minifiers",
                 "ext-intl": "Allows international URLs to be accepted by the URL filter",
                 "ext-json": "Enables the generation of a JavaScript parser",
-                "ext-mbstring": "Improves the performance of the PHP renderer",
-                "ext-tokenizer": "Improves the performance of the PHP renderer",
+                "ext-mbstring": "Enables some optimizations in the PHP renderer",
+                "ext-tokenizer": "Enables optimizations in the PHP renderer",
                 "ext-xsl": "Enables the XSLT renderer",
                 "ext-zlib": "Enables gzip compression when scraping content via the MediaEmbed plugin"
             },
@@ -1006,7 +1006,7 @@
                 "parser",
                 "shortcodes"
             ],
-            "time": "2016-02-21 20:38:42"
+            "time": "2015-08-30 09:07:06"
         },
         {
             "name": "swiftmailer/swiftmailer",
